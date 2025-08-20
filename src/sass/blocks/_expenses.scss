@@ -1,0 +1,38 @@
+.expenses {
+    padding-top: 100px;
+    &__wrapper {
+        display: flex;
+        gap: 65px;
+    }
+    &__block {
+        padding-top: 80px;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 120%;
+        color: #252b3b;
+    }
+    &__text {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        letter-spacing: 0.01em;
+        color: #252b3b;
+    }
+    &__list {
+        margin-top: 25px;
+        list-style-type: none;
+        &-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 170%;
+            letter-spacing: 0.01em;
+            color: #252b3b;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.bills {
+    padding-top: 100px;
+    &__wrapper {
+        display: flex;
+        gap: 125px;
+        align-items: center;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 120%;
+        color: #252b3b;
+    }
+    &__text {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 170%;
+        letter-spacing: 0.01em;
+        color: #252b3b;
+    }
+}
